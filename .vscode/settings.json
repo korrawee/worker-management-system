@@ -1,4 +1,9 @@
 {
     "git.ignoreLimitWarning": true,
-    "prettier.arrowParens": "always"
+    "prettier.arrowParens": "always",
+    "git.timeline.showUncommitted": true,
+    "git.terminalGitEditor": false,
+    "git.scanRepositories": [
+        "https://github.com/korrawee/worker-management-system"
+    ]
 }

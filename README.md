@@ -2,6 +2,8 @@
 ## Description
  The Worker management system 
  
+# Back-end Section
+
 ## Prerequirement
 - docker version **20.10.13**
 
@@ -21,3 +23,5 @@ $ docker compose build
 
 $ docker compose up
 ```
+
+# Front-end Section
