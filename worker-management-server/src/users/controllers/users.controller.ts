@@ -9,9 +9,8 @@ import {
     ValidationPipe,
     Delete,
 } from '@nestjs/common';
-import { CreateUserDto } from '../../dtos/CreateUser.dtos';
-import { UsersService } from '../../services/users/users.service';
-
+import { CreateUserDto } from '../dtos/CreateUser.dtos';
+import  { UsersService } from '../services/users.service';
 @Controller('users')
 export class UsersController {
     constructor(private readonly userService: UsersService) {}
