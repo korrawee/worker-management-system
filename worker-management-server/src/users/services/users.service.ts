@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Users } from 'src/typeorm/index';
 import { Repository } from 'typeorm';
-import { CreateUserDto } from '../../dtos/CreateUser.dtos';
+import { CreateUserDto } from '../dtos/CreateUser.dtos';
 @Injectable()
 export class UsersService {
   constructor(
@@ -23,8 +23,6 @@ export class UsersService {
   }
 
   getUsers() {
-    // return this.userRepository.find(undefined);
-    return {mes: "I am version three!! "};
-
+    return this.userRepository.find(undefined);
   }
 }
